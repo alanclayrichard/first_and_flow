@@ -191,8 +191,8 @@ If you use this work in your research, please cite:
 ```bibtex
 @misc{first_and_flow2025,
   title={First and Flow: Flow Matching for Football Analytics},
-  author={First and Flow Team},
+  author={Clay Richard},
   year={2025},
-  howpublished={\url{https://github.com/yourusername/first_and_flow}}
+  howpublished={\url{https://github.com/alanclayrichard/first_and_flow}}
 }
 ```
