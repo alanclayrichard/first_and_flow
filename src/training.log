@@ -1,0 +1,317 @@
+2025-07-15 19:06:19,700 - __main__ - INFO - Starting First and Flow pipeline...
+2025-07-15 19:06:19,700 - __main__ - INFO - Arguments: {'data_path': '../data/processed/nfl_flow_training_data.csv', 'epochs': 100, 'batch_size': 32, 'learning_rate': 0.001, 'hidden_dim': 128, 'device': 'auto', 'checkpoint_dir': 'checkpoints', 'eval_only': False, 'model_path': None}
+2025-07-15 19:06:19,701 - __main__ - INFO - Initializing data loader...
+2025-07-15 19:06:19,701 - __main__ - INFO - Initializing model...
+2025-07-15 19:06:19,705 - __main__ - INFO - Starting training phase...
+2025-07-15 19:06:20,404 - first_and_flow.trainer - INFO - Trainer initialized on device: cpu
+2025-07-15 19:06:20,405 - first_and_flow.trainer - INFO - Starting training for 100 epochs...
+2025-07-15 19:06:20,405 - first_and_flow.trainer - INFO - Preparing data for training...
+2025-07-15 19:06:20,405 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:06:20,408 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:06:20,408 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:06:20,409 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:06:20,409 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:06:20,413 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:06:20,413 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:06:20,415 - first_and_flow.data_loader - INFO - Data split: 2223 train, 521 val, 570 test
+2025-07-15 19:06:20,415 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:06:20,416 - __main__ - ERROR - Pipeline failed with error: "['efficiency_score', 'passing_efficiency'] not in index"
+2025-07-15 19:06:47,435 - __main__ - INFO - Starting First and Flow pipeline...
+2025-07-15 19:06:47,435 - __main__ - INFO - Arguments: {'data_path': '../data/processed/nfl_flow_training_data.csv', 'epochs': 100, 'batch_size': 32, 'learning_rate': 0.001, 'hidden_dim': 128, 'device': 'auto', 'checkpoint_dir': 'checkpoints', 'eval_only': False, 'model_path': None}
+2025-07-15 19:06:47,435 - __main__ - INFO - Initializing data loader...
+2025-07-15 19:06:47,435 - __main__ - INFO - Initializing model...
+2025-07-15 19:06:47,436 - __main__ - INFO - Starting training phase...
+2025-07-15 19:06:48,017 - first_and_flow.trainer - INFO - Trainer initialized on device: cpu
+2025-07-15 19:06:48,017 - first_and_flow.trainer - INFO - Starting training for 100 epochs...
+2025-07-15 19:06:48,017 - first_and_flow.trainer - INFO - Preparing data for training...
+2025-07-15 19:06:48,017 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:06:48,020 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:06:48,020 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:06:48,020 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:06:48,020 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:06:48,024 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:06:48,024 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:06:48,025 - first_and_flow.data_loader - INFO - Data split: 2223 train, 521 val, 570 test
+2025-07-15 19:06:48,025 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:06:48,026 - __main__ - ERROR - Pipeline failed with error: "['efficiency_score', 'passing_efficiency'] not in index"
+2025-07-15 19:09:01,182 - __main__ - INFO - Starting First and Flow pipeline...
+2025-07-15 19:09:01,182 - __main__ - INFO - Arguments: {'data_path': '../data/processed/nfl_flow_training_data.csv', 'epochs': 5, 'batch_size': 16, 'learning_rate': 0.001, 'hidden_dim': 128, 'device': 'auto', 'checkpoint_dir': 'checkpoints', 'eval_only': False, 'model_path': None}
+2025-07-15 19:09:01,182 - __main__ - INFO - Initializing data loader...
+2025-07-15 19:09:01,182 - __main__ - INFO - Initializing model...
+2025-07-15 19:09:01,183 - __main__ - INFO - Starting training phase...
+2025-07-15 19:09:01,705 - first_and_flow.trainer - INFO - Trainer initialized on device: cpu
+2025-07-15 19:09:01,705 - first_and_flow.trainer - INFO - Starting training for 5 epochs...
+2025-07-15 19:09:01,705 - first_and_flow.trainer - INFO - Preparing data for training...
+2025-07-15 19:09:01,705 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:09:01,708 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:09:01,708 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:09:01,708 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:09:01,708 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:09:01,712 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:09:01,712 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:09:01,712 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:09:01,712 - first_and_flow.data_loader - INFO - Using features: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays', 'efficiency_score', 'passing_efficiency']
+2025-07-15 19:09:02,036 - first_and_flow.data_loader - INFO - Created 2738 sequences of shape (2738, 4, 7)
+2025-07-15 19:09:02,036 - first_and_flow.trainer - INFO - Splitting sequences into train/val/test...
+2025-07-15 19:09:02,042 - first_and_flow.trainer - INFO - Data prepared: 1833 train, 431 val, 474 test
+2025-07-15 19:09:02,042 - first_and_flow.trainer - INFO - Epoch 1/5
+2025-07-15 19:09:06,995 - first_and_flow.trainer - INFO - Train Loss: 0.0224, Val Loss: 0.0228
+2025-07-15 19:09:07,001 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0228
+2025-07-15 19:09:07,002 - first_and_flow.trainer - INFO - Epoch 2/5
+2025-07-15 19:09:11,561 - first_and_flow.trainer - INFO - Train Loss: 0.0210, Val Loss: 0.0214
+2025-07-15 19:09:11,567 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0214
+2025-07-15 19:09:11,568 - first_and_flow.trainer - INFO - Epoch 3/5
+2025-07-15 19:09:16,054 - first_and_flow.trainer - INFO - Train Loss: 0.0220, Val Loss: 0.0225
+2025-07-15 19:09:16,054 - first_and_flow.trainer - INFO - Epoch 4/5
+2025-07-15 19:09:20,622 - first_and_flow.trainer - INFO - Train Loss: 0.0220, Val Loss: 0.0212
+2025-07-15 19:09:20,626 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0212
+2025-07-15 19:09:20,627 - first_and_flow.trainer - INFO - Epoch 5/5
+2025-07-15 19:09:25,164 - first_and_flow.trainer - INFO - Train Loss: 0.0210, Val Loss: 0.0206
+2025-07-15 19:09:25,170 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0206
+2025-07-15 19:09:27,344 - first_and_flow.trainer - INFO - Final test loss: 0.0218
+2025-07-15 19:09:27,344 - __main__ - INFO - Training completed successfully!
+2025-07-15 19:09:27,344 - __main__ - INFO - Best validation loss: 0.0206
+2025-07-15 19:09:27,344 - __main__ - INFO - Final test loss: 0.0218
+2025-07-15 19:09:27,348 - first_and_flow.trainer - INFO - Loaded checkpoint from epoch 5
+2025-07-15 19:09:27,348 - __main__ - INFO - Starting evaluation phase...
+2025-07-15 19:09:27,348 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:09:27,350 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:09:27,351 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:09:27,351 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:09:27,351 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:09:27,354 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:09:27,354 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:09:27,355 - first_and_flow.data_loader - INFO - Data split: 2223 train, 521 val, 570 test
+2025-07-15 19:09:27,355 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:09:27,355 - first_and_flow.data_loader - INFO - Using features: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays']
+2025-07-15 19:09:27,420 - first_and_flow.data_loader - INFO - Created 474 sequences of shape (474, 4, 5)
+2025-07-15 19:09:27,421 - first_and_flow.evaluator - INFO - Generating comprehensive evaluation report...
+2025-07-15 19:09:27,421 - first_and_flow.evaluator - INFO - Evaluating trajectory reconstruction...
+2025-07-15 19:09:27,424 - __main__ - ERROR - Pipeline failed with error: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:10:45,772 - __main__ - INFO - Starting First and Flow pipeline...
+2025-07-15 19:10:45,772 - __main__ - INFO - Arguments: {'data_path': '../data/processed/nfl_flow_training_data.csv', 'epochs': 3, 'batch_size': 16, 'learning_rate': 0.001, 'hidden_dim': 128, 'device': 'auto', 'checkpoint_dir': 'checkpoints', 'eval_only': False, 'model_path': None}
+2025-07-15 19:10:45,772 - __main__ - INFO - Initializing data loader...
+2025-07-15 19:10:45,772 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:10:45,774 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:10:45,774 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:10:45,774 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:10:45,774 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:10:45,778 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:10:45,778 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:10:45,778 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:10:45,778 - first_and_flow.data_loader - INFO - Using features: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays', 'efficiency_score', 'passing_efficiency']
+2025-07-15 19:10:45,783 - first_and_flow.data_loader - INFO - Created 4 sequences of shape (4, 4, 7)
+2025-07-15 19:10:45,783 - __main__ - INFO - Detected input dimension: 7
+2025-07-15 19:10:45,783 - __main__ - INFO - Initializing model...
+2025-07-15 19:10:45,784 - __main__ - INFO - Starting training phase...
+2025-07-15 19:10:46,293 - first_and_flow.trainer - INFO - Trainer initialized on device: cpu
+2025-07-15 19:10:46,293 - first_and_flow.trainer - INFO - Starting training for 3 epochs...
+2025-07-15 19:10:46,293 - first_and_flow.trainer - INFO - Preparing data for training...
+2025-07-15 19:10:46,293 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:10:46,295 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:10:46,295 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:10:46,295 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:10:46,295 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:10:46,299 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:10:46,299 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:10:46,299 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:10:46,299 - first_and_flow.data_loader - INFO - Using features: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays', 'efficiency_score', 'passing_efficiency']
+2025-07-15 19:10:46,628 - first_and_flow.data_loader - INFO - Created 2738 sequences of shape (2738, 4, 7)
+2025-07-15 19:10:46,629 - first_and_flow.trainer - INFO - Splitting sequences into train/val/test...
+2025-07-15 19:10:46,634 - first_and_flow.trainer - INFO - Data prepared: 1833 train, 431 val, 474 test
+2025-07-15 19:10:46,634 - first_and_flow.trainer - INFO - Epoch 1/3
+2025-07-15 19:10:51,405 - first_and_flow.trainer - INFO - Train Loss: 0.0215, Val Loss: 0.0215
+2025-07-15 19:10:51,410 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0215
+2025-07-15 19:10:51,410 - first_and_flow.trainer - INFO - Epoch 2/3
+2025-07-15 19:10:56,026 - first_and_flow.trainer - INFO - Train Loss: 0.0221, Val Loss: 0.0219
+2025-07-15 19:10:56,027 - first_and_flow.trainer - INFO - Epoch 3/3
+2025-07-15 19:11:00,510 - first_and_flow.trainer - INFO - Train Loss: 0.0218, Val Loss: 0.0215
+2025-07-15 19:11:00,513 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0215
+2025-07-15 19:11:02,700 - first_and_flow.trainer - INFO - Final test loss: 0.0240
+2025-07-15 19:11:02,700 - __main__ - INFO - Training completed successfully!
+2025-07-15 19:11:02,700 - __main__ - INFO - Best validation loss: 0.0215
+2025-07-15 19:11:02,700 - __main__ - INFO - Final test loss: 0.0240
+2025-07-15 19:11:02,704 - first_and_flow.trainer - INFO - Loaded checkpoint from epoch 3
+2025-07-15 19:11:02,704 - __main__ - INFO - Starting evaluation phase...
+2025-07-15 19:11:02,705 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:11:02,707 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:11:02,708 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:11:02,708 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:11:02,708 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:11:02,712 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:11:02,712 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:11:02,712 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:11:02,712 - first_and_flow.data_loader - INFO - Using features: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays', 'efficiency_score', 'passing_efficiency']
+2025-07-15 19:11:03,036 - first_and_flow.data_loader - INFO - Created 2738 sequences of shape (2738, 4, 7)
+2025-07-15 19:11:03,037 - first_and_flow.evaluator - INFO - Generating comprehensive evaluation report...
+2025-07-15 19:11:03,037 - first_and_flow.evaluator - INFO - Evaluating trajectory reconstruction...
+2025-07-15 19:11:03,057 - first_and_flow.evaluator - INFO - Reconstruction error: 0.2511 ± 0.0837
+2025-07-15 19:11:03,057 - first_and_flow.evaluator - INFO - Analyzing dynamics for KC in 2023...
+2025-07-15 19:11:03,058 - first_and_flow.evaluator - WARNING - Could not analyze KC: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:11:03,058 - first_and_flow.evaluator - INFO - Analyzing dynamics for BUF in 2023...
+2025-07-15 19:11:03,059 - first_and_flow.evaluator - WARNING - Could not analyze BUF: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:11:03,059 - first_and_flow.evaluator - INFO - Analyzing dynamics for SF in 2023...
+2025-07-15 19:11:03,060 - first_and_flow.evaluator - WARNING - Could not analyze SF: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:11:03,060 - first_and_flow.evaluator - INFO - Analyzing dynamics for DAL in 2023...
+2025-07-15 19:11:03,060 - first_and_flow.evaluator - WARNING - Could not analyze DAL: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:11:03,060 - first_and_flow.evaluator - INFO - Evaluation report saved to evaluation_results
+2025-07-15 19:11:03,060 - __main__ - INFO - Evaluation completed successfully!
+2025-07-15 19:11:03,060 - __main__ - INFO - Results saved to evaluation_results/
+2025-07-15 19:11:03,061 - __main__ - INFO - Reconstruction error: 0.2511
+2025-07-15 19:12:58,021 - __main__ - INFO - Starting First and Flow pipeline...
+2025-07-15 19:12:58,022 - __main__ - INFO - Arguments: {'data_path': '../data/processed/nfl_flow_training_data.csv', 'epochs': 100, 'batch_size': 32, 'learning_rate': 0.001, 'hidden_dim': 128, 'device': 'auto', 'checkpoint_dir': 'checkpoints', 'eval_only': False, 'model_path': None}
+2025-07-15 19:12:58,022 - __main__ - INFO - Initializing data loader...
+2025-07-15 19:12:58,022 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:12:58,024 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:12:58,024 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:12:58,024 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:12:58,024 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:12:58,027 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:12:58,027 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:12:58,027 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:12:58,027 - first_and_flow.data_loader - INFO - Using features: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'efficiency_score', 'passing_efficiency', 'total_plays']
+2025-07-15 19:12:58,031 - first_and_flow.data_loader - INFO - Created 4 sequences of shape (4, 4, 7)
+2025-07-15 19:12:58,031 - __main__ - INFO - Detected input dimension: 7
+2025-07-15 19:12:58,031 - __main__ - INFO - Initializing model...
+2025-07-15 19:12:58,032 - __main__ - INFO - Starting training phase...
+2025-07-15 19:12:58,538 - first_and_flow.trainer - INFO - Trainer initialized on device: cpu
+2025-07-15 19:12:58,538 - first_and_flow.trainer - INFO - Starting training for 100 epochs...
+2025-07-15 19:12:58,538 - first_and_flow.trainer - INFO - Preparing data for training...
+2025-07-15 19:12:58,538 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:12:58,540 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:12:58,540 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:12:58,540 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:12:58,541 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:12:58,544 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:12:58,544 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:12:58,545 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:12:58,545 - first_and_flow.data_loader - INFO - Using features: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'efficiency_score', 'passing_efficiency', 'total_plays']
+2025-07-15 19:12:58,858 - first_and_flow.data_loader - INFO - Created 2738 sequences of shape (2738, 4, 7)
+2025-07-15 19:12:58,858 - first_and_flow.trainer - INFO - Splitting sequences into train/val/test...
+2025-07-15 19:12:58,863 - first_and_flow.trainer - INFO - Data prepared: 1833 train, 431 val, 474 test
+2025-07-15 19:12:58,863 - first_and_flow.trainer - INFO - Epoch 1/100
+2025-07-15 19:13:03,510 - first_and_flow.trainer - INFO - Train Loss: 0.0219, Val Loss: 0.0213
+2025-07-15 19:13:03,514 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0213
+2025-07-15 19:13:03,515 - first_and_flow.trainer - INFO - Epoch 2/100
+2025-07-15 19:13:07,951 - first_and_flow.trainer - INFO - Train Loss: 0.0221, Val Loss: 0.0227
+2025-07-15 19:13:07,951 - first_and_flow.trainer - INFO - Epoch 3/100
+2025-07-15 19:13:12,377 - first_and_flow.trainer - INFO - Train Loss: 0.0225, Val Loss: 0.0206
+2025-07-15 19:13:12,380 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0206
+2025-07-15 19:13:12,381 - first_and_flow.trainer - INFO - Epoch 4/100
+2025-07-15 19:13:16,806 - first_and_flow.trainer - INFO - Train Loss: 0.0214, Val Loss: 0.0209
+2025-07-15 19:13:16,806 - first_and_flow.trainer - INFO - Epoch 5/100
+2025-07-15 19:13:21,176 - first_and_flow.trainer - INFO - Train Loss: 0.0209, Val Loss: 0.0217
+2025-07-15 19:13:21,176 - first_and_flow.trainer - INFO - Epoch 6/100
+2025-07-15 19:13:25,633 - first_and_flow.trainer - INFO - Train Loss: 0.0207, Val Loss: 0.0206
+2025-07-15 19:13:25,634 - first_and_flow.trainer - INFO - Epoch 7/100
+2025-07-15 19:13:30,068 - first_and_flow.trainer - INFO - Train Loss: 0.0218, Val Loss: 0.0205
+2025-07-15 19:13:30,071 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0205
+2025-07-15 19:13:30,072 - first_and_flow.trainer - INFO - Epoch 8/100
+2025-07-15 19:13:34,486 - first_and_flow.trainer - INFO - Train Loss: 0.0206, Val Loss: 0.0223
+2025-07-15 19:13:34,486 - first_and_flow.trainer - INFO - Epoch 9/100
+2025-07-15 19:13:38,927 - first_and_flow.trainer - INFO - Train Loss: 0.0222, Val Loss: 0.0201
+2025-07-15 19:13:38,931 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0201
+2025-07-15 19:13:38,931 - first_and_flow.trainer - INFO - Epoch 10/100
+2025-07-15 19:13:43,387 - first_and_flow.trainer - INFO - Train Loss: 0.0209, Val Loss: 0.0228
+2025-07-15 19:13:43,389 - first_and_flow.trainer - INFO - Epoch 11/100
+2025-07-15 19:13:47,794 - first_and_flow.trainer - INFO - Train Loss: 0.0224, Val Loss: 0.0207
+2025-07-15 19:13:47,794 - first_and_flow.trainer - INFO - Epoch 12/100
+2025-07-15 19:13:52,249 - first_and_flow.trainer - INFO - Train Loss: 0.0215, Val Loss: 0.0217
+2025-07-15 19:13:52,249 - first_and_flow.trainer - INFO - Epoch 13/100
+2025-07-15 19:13:56,738 - first_and_flow.trainer - INFO - Train Loss: 0.0224, Val Loss: 0.0212
+2025-07-15 19:13:56,738 - first_and_flow.trainer - INFO - Epoch 14/100
+2025-07-15 19:14:01,083 - first_and_flow.trainer - INFO - Train Loss: 0.0220, Val Loss: 0.0207
+2025-07-15 19:14:01,084 - first_and_flow.trainer - INFO - Epoch 15/100
+2025-07-15 19:14:05,453 - first_and_flow.trainer - INFO - Train Loss: 0.0210, Val Loss: 0.0214
+2025-07-15 19:14:05,453 - first_and_flow.trainer - INFO - Epoch 16/100
+2025-07-15 19:14:09,825 - first_and_flow.trainer - INFO - Train Loss: 0.0218, Val Loss: 0.0211
+2025-07-15 19:14:09,825 - first_and_flow.trainer - INFO - Epoch 17/100
+2025-07-15 19:14:14,143 - first_and_flow.trainer - INFO - Train Loss: 0.0216, Val Loss: 0.0197
+2025-07-15 19:14:14,147 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0197
+2025-07-15 19:14:14,147 - first_and_flow.trainer - INFO - Epoch 18/100
+2025-07-15 19:14:18,458 - first_and_flow.trainer - INFO - Train Loss: 0.0216, Val Loss: 0.0220
+2025-07-15 19:14:18,459 - first_and_flow.trainer - INFO - Epoch 19/100
+2025-07-15 19:14:22,779 - first_and_flow.trainer - INFO - Train Loss: 0.0211, Val Loss: 0.0209
+2025-07-15 19:14:22,780 - first_and_flow.trainer - INFO - Epoch 20/100
+2025-07-15 19:14:27,125 - first_and_flow.trainer - INFO - Train Loss: 0.0217, Val Loss: 0.0226
+2025-07-15 19:14:27,128 - first_and_flow.trainer - INFO - Epoch 21/100
+2025-07-15 19:14:31,543 - first_and_flow.trainer - INFO - Train Loss: 0.0220, Val Loss: 0.0204
+2025-07-15 19:14:31,544 - first_and_flow.trainer - INFO - Epoch 22/100
+2025-07-15 19:14:35,888 - first_and_flow.trainer - INFO - Train Loss: 0.0224, Val Loss: 0.0195
+2025-07-15 19:14:35,892 - first_and_flow.trainer - INFO - Saved best model with val_loss: 0.0195
+2025-07-15 19:14:35,893 - first_and_flow.trainer - INFO - Epoch 23/100
+2025-07-15 19:14:40,431 - first_and_flow.trainer - INFO - Train Loss: 0.0213, Val Loss: 0.0205
+2025-07-15 19:14:40,431 - first_and_flow.trainer - INFO - Epoch 24/100
+2025-07-15 19:14:44,852 - first_and_flow.trainer - INFO - Train Loss: 0.0219, Val Loss: 0.0219
+2025-07-15 19:14:44,852 - first_and_flow.trainer - INFO - Epoch 25/100
+2025-07-15 19:14:49,391 - first_and_flow.trainer - INFO - Train Loss: 0.0218, Val Loss: 0.0212
+2025-07-15 19:14:49,392 - first_and_flow.trainer - INFO - Epoch 26/100
+2025-07-15 19:14:53,724 - first_and_flow.trainer - INFO - Train Loss: 0.0219, Val Loss: 0.0205
+2025-07-15 19:14:53,725 - first_and_flow.trainer - INFO - Epoch 27/100
+2025-07-15 19:14:58,122 - first_and_flow.trainer - INFO - Train Loss: 0.0222, Val Loss: 0.0205
+2025-07-15 19:14:58,123 - first_and_flow.trainer - INFO - Epoch 28/100
+2025-07-15 19:15:02,440 - first_and_flow.trainer - INFO - Train Loss: 0.0223, Val Loss: 0.0211
+2025-07-15 19:15:02,440 - first_and_flow.trainer - INFO - Epoch 29/100
+2025-07-15 19:15:06,738 - first_and_flow.trainer - INFO - Train Loss: 0.0215, Val Loss: 0.0204
+2025-07-15 19:15:06,738 - first_and_flow.trainer - INFO - Epoch 30/100
+2025-07-15 19:15:11,084 - first_and_flow.trainer - INFO - Train Loss: 0.0214, Val Loss: 0.0206
+2025-07-15 19:15:11,086 - first_and_flow.trainer - INFO - Epoch 31/100
+2025-07-15 19:15:15,437 - first_and_flow.trainer - INFO - Train Loss: 0.0218, Val Loss: 0.0226
+2025-07-15 19:15:15,437 - first_and_flow.trainer - INFO - Epoch 32/100
+2025-07-15 19:15:19,746 - first_and_flow.trainer - INFO - Train Loss: 0.0222, Val Loss: 0.0215
+2025-07-15 19:15:19,746 - first_and_flow.trainer - INFO - Epoch 33/100
+2025-07-15 19:15:24,044 - first_and_flow.trainer - INFO - Train Loss: 0.0221, Val Loss: 0.0206
+2025-07-15 19:15:24,045 - first_and_flow.trainer - INFO - Epoch 34/100
+2025-07-15 19:15:28,494 - first_and_flow.trainer - INFO - Train Loss: 0.0229, Val Loss: 0.0224
+2025-07-15 19:15:28,495 - first_and_flow.trainer - INFO - Epoch 35/100
+2025-07-15 19:15:32,917 - first_and_flow.trainer - INFO - Train Loss: 0.0225, Val Loss: 0.0199
+2025-07-15 19:15:32,917 - first_and_flow.trainer - INFO - Epoch 36/100
+2025-07-15 19:15:37,391 - first_and_flow.trainer - INFO - Train Loss: 0.0214, Val Loss: 0.0214
+2025-07-15 19:15:37,392 - first_and_flow.trainer - INFO - Epoch 37/100
+2025-07-15 19:15:41,897 - first_and_flow.trainer - INFO - Train Loss: 0.0218, Val Loss: 0.0198
+2025-07-15 19:15:41,897 - first_and_flow.trainer - INFO - Epoch 38/100
+2025-07-15 19:15:46,249 - first_and_flow.trainer - INFO - Train Loss: 0.0217, Val Loss: 0.0220
+2025-07-15 19:15:46,250 - first_and_flow.trainer - INFO - Epoch 39/100
+2025-07-15 19:15:50,639 - first_and_flow.trainer - INFO - Train Loss: 0.0213, Val Loss: 0.0224
+2025-07-15 19:15:50,639 - first_and_flow.trainer - INFO - Epoch 40/100
+2025-07-15 19:15:54,939 - first_and_flow.trainer - INFO - Train Loss: 0.0214, Val Loss: 0.0206
+2025-07-15 19:15:54,942 - first_and_flow.trainer - INFO - Epoch 41/100
+2025-07-15 19:15:59,276 - first_and_flow.trainer - INFO - Train Loss: 0.0222, Val Loss: 0.0198
+2025-07-15 19:15:59,276 - first_and_flow.trainer - INFO - Epoch 42/100
+2025-07-15 19:16:03,585 - first_and_flow.trainer - INFO - Train Loss: 0.0210, Val Loss: 0.0209
+2025-07-15 19:16:03,585 - first_and_flow.trainer - INFO - Early stopping at epoch 42
+2025-07-15 19:16:05,677 - first_and_flow.trainer - INFO - Final test loss: 0.0228
+2025-07-15 19:16:05,677 - __main__ - INFO - Training completed successfully!
+2025-07-15 19:16:05,677 - __main__ - INFO - Best validation loss: 0.0195
+2025-07-15 19:16:05,677 - __main__ - INFO - Final test loss: 0.0228
+2025-07-15 19:16:05,681 - first_and_flow.trainer - INFO - Loaded checkpoint from epoch 22
+2025-07-15 19:16:05,681 - __main__ - INFO - Starting evaluation phase...
+2025-07-15 19:16:05,681 - first_and_flow.data_loader - INFO - Loading NFL data from ../data/processed/nfl_flow_training_data.csv
+2025-07-15 19:16:05,684 - first_and_flow.data_loader - INFO - Loaded 3314 team-week observations
+2025-07-15 19:16:05,684 - first_and_flow.data_loader - INFO - Seasons: 2018 to 2023
+2025-07-15 19:16:05,684 - first_and_flow.data_loader - INFO - Teams: 32 unique teams
+2025-07-15 19:16:05,684 - first_and_flow.data_loader - INFO - Engineering features for flow matching...
+2025-07-15 19:16:05,688 - first_and_flow.data_loader - INFO - Features normalized to [0, 1] range
+2025-07-15 19:16:05,688 - first_and_flow.data_loader - INFO - Preprocessed 7 features
+2025-07-15 19:16:05,688 - first_and_flow.data_loader - INFO - Creating 4-week sequences...
+2025-07-15 19:16:05,688 - first_and_flow.data_loader - INFO - Using features: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'efficiency_score', 'passing_efficiency', 'total_plays']
+2025-07-15 19:16:06,011 - first_and_flow.data_loader - INFO - Created 2738 sequences of shape (2738, 4, 7)
+2025-07-15 19:16:06,012 - first_and_flow.evaluator - INFO - Generating comprehensive evaluation report...
+2025-07-15 19:16:06,012 - first_and_flow.evaluator - INFO - Evaluating trajectory reconstruction...
+2025-07-15 19:16:06,031 - first_and_flow.evaluator - INFO - Reconstruction error: 0.2545 ± 0.0832
+2025-07-15 19:16:06,031 - first_and_flow.evaluator - INFO - Analyzing dynamics for KC in 2023...
+2025-07-15 19:16:06,032 - first_and_flow.data_loader - WARNING - Some features missing. Available: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays']
+2025-07-15 19:16:06,032 - first_and_flow.evaluator - WARNING - Could not analyze KC: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:16:06,032 - first_and_flow.evaluator - INFO - Analyzing dynamics for BUF in 2023...
+2025-07-15 19:16:06,033 - first_and_flow.data_loader - WARNING - Some features missing. Available: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays']
+2025-07-15 19:16:06,033 - first_and_flow.evaluator - WARNING - Could not analyze BUF: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:16:06,033 - first_and_flow.evaluator - INFO - Analyzing dynamics for SF in 2023...
+2025-07-15 19:16:06,033 - first_and_flow.data_loader - WARNING - Some features missing. Available: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays']
+2025-07-15 19:16:06,034 - first_and_flow.evaluator - WARNING - Could not analyze SF: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:16:06,034 - first_and_flow.evaluator - INFO - Analyzing dynamics for DAL in 2023...
+2025-07-15 19:16:06,034 - first_and_flow.data_loader - WARNING - Some features missing. Available: ['off_epa_per_play', 'success_rate', 'pass_rate', 'avg_air_yards', 'total_plays']
+2025-07-15 19:16:06,034 - first_and_flow.evaluator - WARNING - Could not analyze DAL: The expanded size of the tensor (7) must match the existing size (5) at non-singleton dimension 0.  Target sizes: [7].  Tensor sizes: [5]
+2025-07-15 19:16:06,034 - first_and_flow.evaluator - INFO - Evaluation report saved to evaluation_results
+2025-07-15 19:16:06,035 - __main__ - INFO - Evaluation completed successfully!
+2025-07-15 19:16:06,035 - __main__ - INFO - Results saved to evaluation_results/
+2025-07-15 19:16:06,035 - __main__ - INFO - Reconstruction error: 0.2545
