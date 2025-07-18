@@ -1,6 +1,0 @@
-2025-07-15 19:04:52,638 - __main__ - INFO - Starting First and Flow pipeline...
-2025-07-15 19:04:52,638 - __main__ - INFO - Arguments: {'data_path': '../data/processed/nfl_flow_training_data.csv', 'epochs': 100, 'batch_size': 32, 'learning_rate': 0.001, 'hidden_dim': 128, 'device': 'auto', 'checkpoint_dir': 'checkpoints', 'eval_only': False, 'model_path': None}
-2025-07-15 19:04:52,638 - __main__ - INFO - Initializing data loader...
-2025-07-15 19:04:52,638 - __main__ - ERROR - Data file not found: ../data/processed/nfl_flow_training_data.csv
-2025-07-15 19:04:52,638 - __main__ - INFO - Please run the data generation pipeline first:
-2025-07-15 19:04:52,638 - __main__ - INFO - cd ../data && Rscript generate_data.R
